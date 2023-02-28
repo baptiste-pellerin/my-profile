@@ -1,0 +1,92 @@
+body {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    color: #121212;
+    margin: 0px;
+}
+
+h1:hover {
+    color: #5A5A5A;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: justify;
+    font-style: normal;
+    line-height:1.875rem;
+    color: #363636;
+    margin: 0px;
+}
+
+a:visited {
+    color: #000000;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+}
+
+.box-white {
+    padding: 15px;
+    border-top: solid 1px #DFDFDF;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    float: right;
+    margin: 0px;
+}
+
+ul > li {
+    display: inline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+#margin-top {
+    margin-top: 20px;
+}
+
+#img-profile {
+    width: 172px;
+    height: 172px;
+    display: block;
+    margin-left: auto;
+}
+
+@media (max-width: 960px) {
+    .container {
+    width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+    width: 520px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+    width: 420px;
+    }
+}
